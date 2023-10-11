@@ -40,6 +40,10 @@
     transition: scale 0.2s;
 }
 
+#home {
+    display: none;
+}
+
 #nav-links a:hover {
     scale:1.1;
     color:var(--color-base)
@@ -79,5 +83,9 @@
 
     #nav-menu-img {
         display:inline;
+    }
+
+    #home {
+        display: inline;
     }
 }

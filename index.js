@@ -23,14 +23,12 @@ class Section extends HTMLElement  {
                 this.text="Our organization aims to work with local organizations and hospitals to provide services that lessen the disparity in accessible health care in underserved communities"
                 this.img="img1";
                 this.content=this.contents[0];
-                this.link="equitable";
                 break;
             case '1':
                 this.title="Accessible<br><b>Medical Equipment and Treatments</b>";
                 this.text="Our organization will feature a website that will serve as a central hub for information on our current projects and also function as a webstore for our low-price medical supplies (includes equipment and OTC drugs)."
                 this.img="img2";
                 this.content=this.contents[1];
-                this.link="equitable";
                 break;
         }
 
@@ -62,7 +60,7 @@ class Section extends HTMLElement  {
                 <div class="box center">
                     <h3>${this.content[2]}</h3>
                 </div>
-                <div onclick="window.location.href = '${this.link}.html';" class="box button" id="read-more">
+                <div class="box button" id="read-more">
                     <h3>READ MORE</h3>
                 </div>
             </div>

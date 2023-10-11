@@ -6,8 +6,10 @@ function onload() {
         <img onclick="mobileMenu()" id="nav-menu-img" src="assets/media/icons/navmenu.svg">
     </div>
     <div id="nav-links">
+        <a id="home" onclick="window.location.href = 'index.html';">Home</a>
         <a onclick="window.location.href = 'about.html';">About</a>
         <a onclick="window.location.href = 'store.html';">Store</a>
+        <a onclick="window.location.href = 'sponsors.html';">Sponsors</a>
         <a onclick="window.open('https://givebutter.com/diphdamedical', '_blank');">Donate</a>
         <a onclick="openContact()" class="contact">Contact</a>
     </div>
