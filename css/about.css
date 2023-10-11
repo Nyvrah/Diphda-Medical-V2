@@ -1,0 +1,79 @@
+.team {
+    display:inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    cursor: pointer;
+    margin:10px;
+    width:350px;
+    background-color: var(--color-lighter);
+    transition: scale 0.2s;
+}
+
+.team-member:hover {
+    scale: 1.05;
+}
+
+.team-member:active {
+    scale: 1;
+}
+
+.member-img {
+    height:450px;
+    width:100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center;
+}
+
+#keagan .member-img{
+    background-image:url('../assets/media/headshots/keagan.png');
+}
+
+#pranav .member-img{
+    background-image:url('../assets/media/headshots/pranav.png');
+}
+
+#harvyn .member-img{
+    background-image:url('../assets/media/headshots/harvyn.jpg');
+}
+
+#kamal .member-img{
+    background-image:url('../assets/media/headshots/kamal.png');
+}
+
+.member-title {
+    color:var(--color-dark);
+    padding:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.member-title h1 {
+    cursor: pointer;
+    font-size:24px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.member-title h1:hover {
+    text-decoration: underline;
+}
+
+.member-title h2 {
+    font-size:15px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.member-title p {
+    padding: 5px;
+    padding-top:5px;
+    padding-bottom: 15px;
+    font-size:14px;
+    font-weight: 300;
+    line-height: normal;
+    color:var(--color-dark-alt);
+}

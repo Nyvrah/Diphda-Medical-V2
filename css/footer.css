@@ -1,0 +1,47 @@
+#footer {
+    background-color: #ccefe8;
+    height:600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#footer-left {
+    text-align: center;
+
+}
+
+#footer-logo {
+    height:150px;
+}
+
+#footer-contact {
+    text-align: right;
+}
+
+#footer-contact-button {
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#emails {
+    word-break: break-all;
+    white-space: normal;
+    text-wrap:wrap;
+    line-height: 13px;
+}
+
+@media only screen and (max-width: 800px) {
+    .h1 {
+        font-size: 10vw;
+    }
+    #footer{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
