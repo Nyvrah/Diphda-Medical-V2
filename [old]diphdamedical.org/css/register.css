@@ -1,0 +1,49 @@
+.form {
+    padding: 20px;
+}
+
+.form-container {
+    margin-left: 10%;
+    margin-right:10%;
+    text-align:left;
+}
+
+#vf1 {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.header {
+    padding-top: 170px;
+    margin-left: 31%;
+    margin-right:31%;
+    margin-bottom: 20px;
+}
+
+  
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height:28px;
+    margin-bottom: 7px;
+}
+
+.form-section-title {
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #969696
+}
+
+.form-section {
+    height:440px;
+    margin-bottom:0px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}

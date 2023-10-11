@@ -1,0 +1,41 @@
+head, body {
+    background-color: white;
+}
+
+#lf1{
+    background-color: #e4f5f2;
+}
+
+#title {
+    top:36%;
+    left:13%;
+    position:absolute;
+}
+
+.highlight {
+    padding-left:0.5%;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 55%, #CBB7F4 55%,#CBB7F4 75%,rgba(255,255,255,0) 75%);
+}
+
+#graphic {
+    position:relative;
+    float:right;
+    right:55%;
+    top:20%;
+}
+
+#circle {
+    position:absolute;
+    background-color: #FEF8F4;
+    height:800px;
+    width:800px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#ct1 {
+    flex-shrink: 0;
+    width:70%;
+}

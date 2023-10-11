@@ -1,0 +1,32 @@
+#lf1 {
+    background-color: #F6F2FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sponsor-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sponsor {
+    padding:20px;
+    background-color: rgba(222, 222, 222, 0);
+    margin: 50px;
+}
+
+#sponsorb {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:16px;
+    background-color: #5B1DDD;
+    color: white;
+}
+
+#sponsorb:hover {
+    background-color: #a67dff;
+}
